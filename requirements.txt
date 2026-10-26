@@ -1,0 +1,16 @@
+# Web layer (not needed to run tests or scripts/run_eval.py in DEMO_MODE)
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+python-multipart>=0.0.12   # required by FastAPI for multipart form uploads
+
+# Real providers (lazy-imported; not needed in DEMO_MODE)
+openai>=1.50.0
+
+# Optional but recommended: image preprocessing (resize, orientation, metadata stripping)
+Pillow>=10.0.0
+
+# Traffic simulator
+httpx>=0.27.0
+
+# Tests
+pytest>=8.3.0

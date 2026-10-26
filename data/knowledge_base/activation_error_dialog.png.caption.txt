@@ -1,0 +1,1 @@
+Screenshot of the license activation error dialog. It shows Error 0x80070005 "Access is denied" with Retry and Cancel buttons. This indicates the activation tool lacks permission to write the license file; the fix is to run the application as administrator.

@@ -1,0 +1,10 @@
+{
+  "_comment": "ILLUSTRATIVE PLACEHOLDER PRICES - NOT REAL VENDOR PRICING. Replace with your providers' current prices (copy this file, point PRICING_PATH at it). Models with no entry are priced with 'default' and flagged as estimated on the dashboard.",
+  "models": {
+    "demo-chat":   {"input_per_million": 1.0, "output_per_million": 3.0},
+    "demo-vision": {"input_per_million": 1.0, "output_per_million": 3.0},
+    "demo-embed":  {"input_per_million": 0.1},
+    "demo-stt":    {"per_audio_minute": 0.006}
+  },
+  "default": {"input_per_million": 2.0, "output_per_million": 6.0, "per_audio_minute": 0.01}
+}
