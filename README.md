@@ -1,4 +1,4 @@
-# The Multimodal RAG Engine (Week 9)
+# The Multimodal RAG Engine
 
 A multimodal RAG system for support tickets. Text, **image** (screenshots, photos) and
 **voice** (audio / PCM stream) channels are ingested, grounded against a hybrid-retrieval
