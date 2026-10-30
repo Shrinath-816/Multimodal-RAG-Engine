@@ -49,10 +49,7 @@ Statuses: `ok`, `needs_human_review`, `failed` (provider outage, HTTP 502),
 extraction, pipeline, api, dashboard, main) · `scripts/` eval + traffic simulator ·
 `data/` knowledge base + golden set · `tests/`.
 
-## Week 9 concept map
-Encoder→projector→LLM and image-token cost → `ingest/image.py` (downscale caps) ·
-caption-and-index multimodal RAG → `rag/kb_loader.py` · VAD/endpointing → `ingest/voice.py` ·
-per-stage latency/cost budgets → `budget.py`, `ledger.py` · safety → `security.py`.
+
 
 ## Known limitations
 - The FastAPI layer (`main.py`: multipart, WebSocket `/ws/voice`, dashboard route) and the
