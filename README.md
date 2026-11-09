@@ -15,7 +15,7 @@ python -m pytest -q                      # 100 tests (core needs only the stdlib
 uvicorn mmrag.main:create_app --factory --port 8000
 # open http://localhost:8000/dashboard
 python scripts/simulate_traffic.py       # in another shell: fills the dashboard
-```
+```````
 
 ## DEMO_MODE and honesty notes
 - `DEMO_MODE=1` uses deterministic fakes (hashed bag-of-words embedder, rule-based "LLM",
